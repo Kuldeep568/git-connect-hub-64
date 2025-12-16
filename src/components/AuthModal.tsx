@@ -61,7 +61,7 @@ const AuthModal = ({ isOpen, onClose }: AuthModalProps) => {
       {/* Modal */}
       <div className="relative bg-background rounded-2xl shadow-2xl w-full max-w-md mx-4 overflow-hidden animate-fade-in">
         {/* Header */}
-        <div className="gradient-coral p-6 text-white">
+        <div className="bg-gradient-to-br from-primary to-primary/80 p-6 text-white">
           <button 
             onClick={onClose}
             className="absolute top-4 right-4 text-white/80 hover:text-white transition-colors"
